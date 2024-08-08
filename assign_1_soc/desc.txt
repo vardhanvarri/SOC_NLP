@@ -1,0 +1,31 @@
+﻿In this pdf Im going to expalin my code for the Epsilon greedy algorithm for the bandit prblm(in my version) and I have added my results at last (for specific epsilon values).
+
+In the first part I would define the no of episodes and the length of each episode.
+Now for each epsilon I have defined the q_values and action_counts as np.zeroes lists which are used to store the  q values and the no of times each action is taken respectively.
+I have defined a rewards list of length len(episodes) to store the total_reward for each episode.
+I have done a basic for loop for each epsiode and and another nested loop for each step and i have done the basic things like slecting an action and getting reward acc to the action(I have defined the action as given in the pic) and updating the q_values ,finally storing the reward to plot.
+
+
+
+
+
+My Inferences:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I have seen that balancing the exploration and exploitation doesnt mean that epsilon=0.5 rather i got better results when epsilon=0.01.
+As we go more towards the exploration we are losing the rewards.And balancing means giving a small chance ofr exploration.....
+
+I HAVE USED THE HELP OF ChatGPT.
